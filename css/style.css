@@ -334,7 +334,11 @@ body {
     }
 
     .fa-java:hover {
-    color: #0568A8;
+    background: linear-gradient(0deg, rgba(8,93,167,1) 50%, rgba(234,8,1,1) 50%);
+    -webkit-background:linear-gradient(0deg, rgba(8,93,167,1) 50%, rgba(234,8,1,1) 50%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 4px;
     }
 
